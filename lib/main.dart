@@ -36,6 +36,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Amazon Clone',
         theme: ThemeData(
           scaffoldBackgroundColor: GlobalVariables.backgroundColor,
@@ -53,7 +54,7 @@ class _MyAppState extends State<MyApp> {
         home: Provider.of<UserProvider>(context).user.token.isNotEmpty
             ? Provider.of<UserProvider>(context).user.type == 'user'
                 ? const BottomBar()
-                : const AuthScreen()
-            : const AdminScreen());
+                : const AdminScreen()
+            : const AuthScreen());
   }
 }
