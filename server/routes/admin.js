@@ -21,11 +21,22 @@ adminRouter.post("/admin/add-product", admin, async (req, res) => {
         res.status(500).json({ error: e.message });
     }
 });
-
+//show all products
 adminRouter.get('/admin/get-products', admin, async (req,res) => {
     try {
         const products = await Product.find({});
         res.json(products);
+    } catch (e) {
+        res.status(500).json({ error: e.message });
+    }
+});
+
+//Delete product
+adminRouter.post('/admin/delete-product', admin, async (req,res) => {
+    try {
+        const {id} = req.body;
+        let product = await Product.findByIdAndDelete(id);
+        res.json(product);
     } catch (e) {
         res.status(500).json({ error: e.message });
     }
