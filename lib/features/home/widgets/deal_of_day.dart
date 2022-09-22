@@ -21,7 +21,7 @@ class _DealOfDayState extends State<DealOfDay> {
           ),
         ),
         Image.network(
-          'https://scontent.fsgn2-3.fna.fbcdn.net/v/t39.30808-6/305640323_3578931622336004_7006659906520364468_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=EWNM7kz_GboAX9W5hpV&_nc_ht=scontent.fsgn2-3.fna&oh=00_AT_q4QiOIOdn5zF37vRvkKUEfpS_rO7fDlfKqPBbBmHT5Q&oe=632705FF',
+          'https://gamek.mediacdn.vn/133514250583805952/2021/7/21/genshin-impact-nhan-vat-moi-kamisato-ayaka01bqwh-16268762314641682208176.jpg',
           height: 235,
           fit: BoxFit.fitHeight,
         ),
@@ -48,25 +48,25 @@ class _DealOfDayState extends State<DealOfDay> {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Image.network(
-                'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/303349764_3578931419002691_5251592147195254929_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=6Imn7kYgRh8AX9uOBb9&_nc_ht=scontent.fsgn2-4.fna&oh=00_AT-XdyHIHec4TkbDokpT8NKAyuI-yNiS18mfktwZUgStmA&oe=63274754',
+                'https://gamek.mediacdn.vn/133514250583805952/2021/7/21/genshin-impact-nhan-vat-moi-kamisato-ayaka01bqwh-16268762314641682208176.jpg',
                 fit: BoxFit.fitWidth,
                 width: 100,
                 height: 100,
               ),
               Image.network(
-                'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/303349764_3578931419002691_5251592147195254929_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=6Imn7kYgRh8AX9uOBb9&_nc_ht=scontent.fsgn2-4.fna&oh=00_AT-XdyHIHec4TkbDokpT8NKAyuI-yNiS18mfktwZUgStmA&oe=63274754',
+                'https://gamek.mediacdn.vn/133514250583805952/2021/7/21/genshin-impact-nhan-vat-moi-kamisato-ayaka01bqwh-16268762314641682208176.jpg',
                 fit: BoxFit.fitWidth,
                 width: 100,
                 height: 100,
               ),
               Image.network(
-                'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/303349764_3578931419002691_5251592147195254929_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=6Imn7kYgRh8AX9uOBb9&_nc_ht=scontent.fsgn2-4.fna&oh=00_AT-XdyHIHec4TkbDokpT8NKAyuI-yNiS18mfktwZUgStmA&oe=63274754',
+                'https://gamek.mediacdn.vn/133514250583805952/2021/7/21/genshin-impact-nhan-vat-moi-kamisato-ayaka01bqwh-16268762314641682208176.jpg',
                 fit: BoxFit.fitWidth,
                 width: 100,
                 height: 100,
               ),
               Image.network(
-                'https://scontent.fsgn2-4.fna.fbcdn.net/v/t39.30808-6/303349764_3578931419002691_5251592147195254929_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5cd70e&_nc_ohc=6Imn7kYgRh8AX9uOBb9&_nc_ht=scontent.fsgn2-4.fna&oh=00_AT-XdyHIHec4TkbDokpT8NKAyuI-yNiS18mfktwZUgStmA&oe=63274754',
+                'https://gamek.mediacdn.vn/133514250583805952/2021/7/21/genshin-impact-nhan-vat-moi-kamisato-ayaka01bqwh-16268762314641682208176.jpg',
                 fit: BoxFit.fitWidth,
                 width: 100,
                 height: 100,
